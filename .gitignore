@@ -1,0 +1,10 @@
+__pycache__/
+.env
+*.pt
+*.pth
+*.keras
+*.h5
+data/
+wandb/
+results/large_outputs/
+.ipynb_checkpoints/
