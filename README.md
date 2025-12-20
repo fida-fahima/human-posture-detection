@@ -14,7 +14,7 @@ Unlike simple static analysis tools, this system uses a **temporal model (Bi-LST
 1.  **Input:** Real-time video feed via OpenCV.
 2.  **Pose Estimation:** **YOLOv8-Pose** extracts 17 skeletal keypoints per frame.
 3.  **State Management:** A logic-based state machine monitors vertical hip displacement to segment individual repetitions.
-4.  **Inference Engine:** * **Normalization:** Coordinates are centered relative to the hip midpoint.
+4.  **Inference Engine:**  **Normalization:** Coordinates are centered relative to the hip midpoint.
     * **Sequence Processing:** Frames are buffered and interpolated to a fixed sequence length (60 frames).
     * **Model:** Bi-LSTM with Multi-Head Attention mechanism.
 5.  **Output:** Visual Status (Good/Bad), and specific geometric corrections.
@@ -26,15 +26,3 @@ Unlike simple static analysis tools, this system uses a **temporal model (Bi-LST
 * **Data Processing:** NumPy, SciPy, Scikit-Learn
 * **Visualization:** Matplotlib, Seaborn
 
-## 📂 Project Structure
-AI-Squat-Correction/
-│
-├── models/
-│   └── best.pth             # Trained PyTorch model weights
-│
-├── notebooks/
-│   └── squat_training.ipynb 
-│
-├── app.py                   # Main deployment script for real-time webcam 
-├── requirements.txt         # List of python dependencies
-└── README.md                # Project documentation

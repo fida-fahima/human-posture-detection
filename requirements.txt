@@ -1,20 +1,13 @@
-# Core Machine Learning & Computer Vision
 torch
 torchvision
 opencv-python
 ultralytics
 
-# Data Processing & Mathematics
-# Pinned to 1.26.4 as per your notebook's stability fix
 numpy==1.26.4
 scipy
 scikit-learn
-
-# Image Handling
-# Pinned to 10.4.0 to avoid conflicts with numpy/torch
 Pillow==10.4.0
 
-# Visualization & Utilities
 matplotlib
 seaborn
 tqdm
