@@ -1,3 +1,4 @@
+venv/
 __pycache__/
 .env
 *.pt
@@ -6,5 +7,5 @@ __pycache__/
 *.h5
 data/
 wandb/
-results/large_outputs/
 .ipynb_checkpoints/
+.vscode/
