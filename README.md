@@ -4,7 +4,7 @@ This project is an end-to-end computer vision system designed to act as a **real
 Unlike simple static analysis tools, this system uses a **temporal model (Bi-LSTM)** to understand the full context of the movement, achieving **90% accuracy** in distinguishing between correct and incorrect forms on a custom dataset.
 
 ##  Key Features
-* **Cutom Dataset:** Taken custon dataset of 20 subjects from front and side angles.
+* **Custom Dataset:** Taken custom dataset of 20 subjects from front and side angles.
 * **Temporal Analysis:** Uses a Dual-Stream Bidirectional LSTM to analyze the entire repetition trajectory, not just single frames.
 * **Hybrid Evaluation:** Combines Deep Learning for robust binary classification ("Good/Bad") with Geometric Heuristics for explainable feedback ("Straighten Back").
 * **View-Invariant Preprocessing:** Normalization techniques make the model robust to user position and camera distance.
