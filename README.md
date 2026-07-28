@@ -1,3 +1,5 @@
+initial version of project
+
 ##  Project Overview
 This project is an end-to-end computer vision system designed to act as a **real-time personal trainer**. It uses a standard webcam to analyze squat technique and provide instant, corrective feedback (e.g., "Lower Hips", "Knees Inward").
 
